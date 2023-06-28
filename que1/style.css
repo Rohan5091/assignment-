@@ -1,0 +1,47 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container{
+  
+  border: 2px solid black;
+
+  padding: 10px;
+  height:100%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+
+}
+.section1{
+  padding: 50px 30px;
+}
+.section2{
+  overflow: hidden;
+}
+.section3{
+  background-color: yellow;
+}
+.section1 span{
+  font-size: 2rem;
+  margin: 10px;
+
+}
+.section1 p{
+  font-size: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.section1 a{
+  padding: 10px 15px;
+  background-color: black;
+  color: aqua;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+
+
+
+

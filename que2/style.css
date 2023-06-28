@@ -1,0 +1,83 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container{
+  
+  border: 2px solid black;
+
+  padding: 10px;
+  height:100%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-template-rows: 30px auto;
+}
+.navbar{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-content: center;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.keys{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-content: center;
+}
+.navbar>img{
+  height: 35px;
+}
+
+.home{
+   justify-self: end;
+}
+.about{
+   justify-self: center;
+}
+.contact{
+   justify-self: start;
+
+}
+.navbar>a{
+   height: 20px;
+   justify-self: end;
+   text-decoration: none;
+   padding: 0px 30px;
+   background-color: goldenrod;
+   color: aliceblue;
+   border: 1px solid goldenrod;
+   border-radius: 3px;
+   margin-top: 10px;
+}
+
+.section1{
+  padding: 50px 30px;
+}
+.section2{
+  overflow: hidden;
+}
+.section3{
+  background-color: yellow;
+}
+.section1 span{
+  font-size: 2rem;
+  margin: 10px;
+
+}
+.section1 p{
+  font-size: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.section1 a{
+  padding: 10px 15px;
+  background-color: black;
+  color: aqua;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
